@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+form {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 2px solid #66c2ff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #66c2ff;
+}
+
+form input[type="datetime-local"],
+form button {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  background-color: #eaf6f8;
+  border: none;
+  border-radius: 3px;
+  color: #555;
+  width: 100%;
+}
+
+form button {
+  background-color: #d4f3ef;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #66c2ff;
+}
+
+form button:hover {
+  transform: scale(1.05);
+  background-color: #66c2ff;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+div {
+  margin-top: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #66c2ff;
+}
+
+output {
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 1px;
+  background-color: #eaf6f8;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  margin-left: 10px;
+  color: #555;
+  border: 2px solid #8bc34a;
+}
